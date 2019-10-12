@@ -1,4 +1,8 @@
-body{}
+html{
+	user-select: none;
+	font-family: 'Lato', sans-serif;
+}
+
 .header{
 	font-size: 20px;
 	line-height: 1.5;
@@ -47,10 +51,19 @@ body{}
 
 .feature p{
 	margin-top: 20px;
+	padding-bottom: 60px;
 }
 
 .agitation{
-	padding-top: 60px;
+	padding-top: 30px;
+}
+
+@media (max-width: 1080px){
+	.center{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
 }
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
